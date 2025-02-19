@@ -221,7 +221,7 @@ if st.button("Preuzmi PDF"):
 
         y = 660
         c.setFont("Helvetica-Bold", 12)
-        c.drawString(50, y, "Sumirani troškovi po kategorijama:")
+        c.drawString(50, y, "Lista troškova:")
         y -= 20
 
         for _, row in df.iterrows():
